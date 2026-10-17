@@ -1,16 +1,98 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling HTML Table with CSS</title>
+
+  <style>
+    body {
+      margin: 12px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: normal;
+      margin: 0 0 18px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 420px;
+      margin-left: 12px;
+      border-spacing: 4px;
+    }
+
+    td, th {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0.5rem;
+      font-size: 27px;
+      font-family: "Times New Roman", serif;
+      text-align: left;
+    }
+
+    thead tr {
+      background-color: #ffffff;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <h1>Styling HTML Table with CSS</h1>
+
+  <p>
+    Create the table as shown below using
+    table and css properties.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Table-Header 1</th>
+        <th>Table-Header 2</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+      </tr>
+
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+      </tr>
+
+      <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+      </tr>
+
+      <tr>
+        <td>Cell 9</td>
+        <td>Cell 10</td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
-
 </html>
